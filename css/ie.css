@@ -1,0 +1,33 @@
+
+.nav li a {
+
+	margin: -3px -4px -4px -3px;
+	padding: 3px 20px 3px 22px;
+}
+
+.nav li a:hover,
+.nav li.active a{
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='images/nav_over.gif', sizingmethod='scale');
+	background:url(../images/nav_over.gif) repeat-x;
+	cursor: pointer;
+}
+
+.nav li.first{
+	background:none;
+	margin:0 -3px 0 -1px;
+	padding: 4px 5px 3px 5px;
+}
+
+.nav li.last a{
+	margin:0 -3px 0 -1px;
+	padding: 3px 22px 3px 23px;
+}
+
+#phone {
+	width:160px;
+	height:30px;
+	background:url(../images/phone.gif) no-repeat;
+	margin:40px 0 100px 75px;
+}
+
+

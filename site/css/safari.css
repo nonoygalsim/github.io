@@ -1,0 +1,45 @@
+
+.nav li {
+	float:left;
+	position:relative;
+	padding: 4px 0 4px 8px;
+	margin:0;
+	background: url(../images/nav_sep.gif) repeat-y;
+}
+
+.nav li a {
+	color:#555;
+	margin: -3px -1px -4px -2px;
+	padding: 3px 18px 3px 18px;
+	text-align: center;
+	display:inline-block;
+}
+
+.nav li.first{
+	background:none;
+	padding:3px -1px 3px -2px;
+	margin: 1px 0 1px -1px;
+	display:inline-block;
+}
+.nav li.last a{
+	padding: 3px 21px 3px 20px;
+}
+
+.nav li a:hover,
+.nav li.active a{
+	background: url(../images/nav_over.gif) repeat-x;
+}
+
+
+#bottom_content ul {
+	float:left;
+	margin: 30px 0 0 33px;
+}
+
+#photo_holder{
+	width:960px;
+	height:450px;
+	float:left;
+	padding: 0 0 50px;
+	background: url(../images/frame_mid.gif) repeat-y;
+}

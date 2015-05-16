@@ -1,0 +1,45 @@
+BODY 
+{ 
+	background:#ffffff; 
+	background-image: url(gradient.png);
+	background-repeat:repeat-x;
+	text-align:center; 
+	font-size:13px;
+	font-family: Century Gothic,Verdana,arial,sans-serif; 
+	color:#000000;
+	border-color:#000000
+}
+
+A { color:#0055FF; }
+A:VISITED { color:#0055FF; }
+A:HOVER { color:#0A949B; }
+
+
+
+
+.main_container { float:center; text-align:center; vertical-align:middle; width:850px; min-height:675px; margin-top:30px; background:#ffffff; text-align:center; border:solid; border-width:1px; border-color:#000000;}
+
+.header { float:center; text-align:center; width:850px; height:220px; margin:0; border:none }
+
+.bar { float:center; text-align:center; width:850px; height:20px; margin:none; border:none; background:#0055FF }
+
+.body { float:center; text-align:justify; width:850px; min-height:475px; margin:0px; border:none; background:#E8F0FC }
+
+
+
+.justify { text-align:justify }
+
+
+.footer { font-family: Maiandra GD,sans-serif; font-size:10px }
+
+
+
+
+
+
+
+
+
+
+
+
